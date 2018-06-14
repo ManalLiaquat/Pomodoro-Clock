@@ -3,6 +3,8 @@ const staticAssets = [
     './',
     './css/style.css',
     './js/app.js',
+    './js/jquery-3.3.1.min.js',
+    './js/jquery-3.3.1.js',
     './img/favicon.png',
     './img/bg.jpg',
 ]
