@@ -2,7 +2,6 @@ $(document).ready(function() {
   var buzzer = $("#buzzer")[0];
   var count = parseInt($("#num").html());
   var breakTime = parseInt($("#breakNum").html());
-  breakTime *= 60;          
   $("#reset").hide();
   $("#start").click(function() {
     var counter = setInterval(timer, 1000);
@@ -18,6 +17,7 @@ $(document).ready(function() {
         buzzer.play();
         clearInterval(counter);
         var startBreak = setInterval(breakTimer, 1000);
+        breakTime *= 60;
         $("#num").hide();
       }
       if (count % 60 >= 10) {
