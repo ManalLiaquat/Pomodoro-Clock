@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Pacifico');
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white !important;
+}
+
+h4 {
+  display: inline;
+}
+
+#start {
+  margin: 10px;
+}
+
+a.btn{
+  width: 100px;
+  font-size: 20pt;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Acme', sans-serif !important;
+}
+
+#mainDiv{
+  background: rgba(0, 0, 0, 0.705);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  max-height: 450px;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 0 0 10px 1px black;
+}
+#num, #breakNum{
+  font-size: 25pt;
+  margin: auto 20px
+}
+
+#badge{
+  color: #000;
+  background-color: #ffc107;
+  /* letter-spacing: 0.2em; */
+  margin-top: 30px !important;
+  /* font-family: 'Acme', sans-serif !important; */
+}
