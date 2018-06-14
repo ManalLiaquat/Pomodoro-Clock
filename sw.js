@@ -1,4 +1,4 @@
-const cacheName = 'RapydSell-App';
+const cacheName = 'Pomodoro-Clock';
 const staticAssets = [
     './',
     './css/style.css',
