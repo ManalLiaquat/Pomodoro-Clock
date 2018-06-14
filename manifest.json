@@ -1,0 +1,37 @@
+{
+  "name": "Pomodoro Clock",
+  "short_name": "Pomodoro Clock",
+  "theme_color": "#72b445",
+  "background_color": "#75c33f",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/index.html",
+  "icons": [
+    {
+        "src": "img/favicon.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    },
+    {
+        "src": "img/favicon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    },
+    {
+        "src": "img/favicon.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    },
+    {
+        "src": "img/favicon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "img/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+]
+}
